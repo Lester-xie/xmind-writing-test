@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    height: 100vh;
+    overflow-y: auto;
+    font-size: 18px;
+    width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .img-wrap {
+        flex-wrap: wrap;
+    }
+
+    ul {
+        padding: 0 10px !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        width: 1280px !important;
+    }
+}
+
+main {
+    width: 100%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0 40px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li > div:first-child {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+li > div:last-child {
+    background-color: #fefefe;
+    border: 1px solid #e1e1e1;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 0;
+    color: #57c764
+}
+
+.description {
+    word-break: break-word;
+    line-height: 30px;
+}
+
+.other {
+    margin-bottom: 20px;
+}
+
+div > p:last-child {
+    margin-bottom: 0;
+}
+
+img {
+    width: 366px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.img-wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.img-wrap img {
+    margin-right: 20px;
+}
+
+.defect {
+    color: #eb4038;
+}
+
+.example-code {
+    width: 90vw;
+    overflow-x: auto;
+}
